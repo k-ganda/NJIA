@@ -1,33 +1,31 @@
 
-## ## Clinical Text Postprocessing (MedGemma)
+## ## ## Forensic Clinical Formatting (P3 Mapping)
 
-This stage transforms raw ASR transcripts into structured clinical and forensic facts using **MedGemma** from Google’s Health AI Developer Foundations (HAI-DEF).
+This stage maps extracted clinical facts into a structured, medico-legal format aligned with the Kenya Police P3 medical examination form.
 
 ### Objective
-To bridge the gap between survivor speech and medical-legal documentation by extracting clinically relevant facts while preserving survivor intent and uncertainty.
+To reduce clinician documentation burden while improving forensic rigor by pre-filling standardized sections of the P3 form using AI-extracted clinical facts.
 
 ---
 
-### Model Usage
-MedGemma is used for medical language understanding and clinical reasoning, enabling:
-- Injury identification
-- Mechanism-of-injury inference
-- Timeline extraction
-- Detection of drug-facilitated assault indicators
-- Explicit capture of survivor uncertainty
-
-This task requires domain-specific medical reasoning and cannot be reliably performed using general-purpose language models.
+### Design Approach
+- Extracted facts are mapped to P3-equivalent sections:
+  - History of assault
+  - Physical examination findings
+  - Injury timing and mechanism
+- The system does not make diagnoses or legal conclusions
+- All outputs are explicitly marked as **pre-filled drafts** requiring clinician review
 
 ---
 
-### Extraction Strategy
-- Verbatim transcripts are passed to MedGemma
-- A structured prompt enforces:
-  - No summarization
-  - No assumption
-  - Neutral clinical language
-- Output is constrained to JSON for downstream forensic formatting
+### Human-in-the-Loop Safeguards
+- Survivor uncertainty is preserved verbatim
+- Clinical opinion fields are left blank
+- Final validation is performed by a licensed clinician
 
 ---
+
+### Output Artifact
+
 
 

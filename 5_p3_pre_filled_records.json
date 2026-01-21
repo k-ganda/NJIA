@@ -1,0 +1,114 @@
+[
+  {
+    "audio_id": "case4.wav",
+    "p3_pre_fill": {
+      "facility_details": {
+        "facility_name": null,
+        "examiner_name": null,
+        "exam_date": "2026-01-21"
+      },
+      "survivor_statement_summary": null,
+      "history_of_assault": {
+        "timing": null,
+        "mechanism": "Cord-like",
+        "repeated_assault": null,
+        "drug_facilitated_suspected": "no"
+      },
+      "physical_examination": {
+        "injuries_observed": null,
+        "injury_locations": null,
+        "injury_age_estimate": null
+      },
+      "clinical_opinion": {
+        "consistency_with_history": "To be determined by clinician",
+        "degree_of_force": null
+      },
+      "limitations_and_uncertainty": "These are red lines around my arms.",
+      "clinician_review_required": true
+    }
+  },
+  {
+    "audio_id": "case3.wav",
+    "p3_pre_fill": {
+      "facility_details": {
+        "facility_name": null,
+        "examiner_name": null,
+        "exam_date": "2026-01-21"
+      },
+      "survivor_statement_summary": null,
+      "history_of_assault": {
+        "timing": null,
+        "mechanism": null,
+        "repeated_assault": null,
+        "drug_facilitated_suspected": "no"
+      },
+      "physical_examination": {
+        "injuries_observed": null,
+        "injury_locations": null,
+        "injury_age_estimate": null
+      },
+      "clinical_opinion": {
+        "consistency_with_history": "To be determined by clinician",
+        "degree_of_force": null
+      },
+      "limitations_and_uncertainty": "I don't remember consenting to anything.",
+      "clinician_review_required": true
+    }
+  },
+  {
+    "audio_id": "case1.wav",
+    "p3_pre_fill": {
+      "facility_details": {
+        "facility_name": null,
+        "examiner_name": null,
+        "exam_date": "2026-01-21"
+      },
+      "survivor_statement_summary": null,
+      "history_of_assault": {
+        "timing": "three times",
+        "mechanism": "kick",
+        "repeated_assault": null,
+        "drug_facilitated_suspected": "no"
+      },
+      "physical_examination": {
+        "injuries_observed": null,
+        "injury_locations": "legs",
+        "injury_age_estimate": "yellow-green"
+      },
+      "clinical_opinion": {
+        "consistency_with_history": "To be determined by clinician",
+        "degree_of_force": null
+      },
+      "limitations_and_uncertainty": "it's very dark purple there now",
+      "clinician_review_required": true
+    }
+  },
+  {
+    "audio_id": "case2.wav",
+    "p3_pre_fill": {
+      "facility_details": {
+        "facility_name": null,
+        "examiner_name": null,
+        "exam_date": "2026-01-21"
+      },
+      "survivor_statement_summary": null,
+      "history_of_assault": {
+        "timing": "Sudden",
+        "mechanism": "Grab",
+        "repeated_assault": null,
+        "drug_facilitated_suspected": "no"
+      },
+      "physical_examination": {
+        "injuries_observed": null,
+        "injury_locations": null,
+        "injury_age_estimate": null
+      },
+      "clinical_opinion": {
+        "consistency_with_history": "To be determined by clinician",
+        "degree_of_force": null
+      },
+      "limitations_and_uncertainty": "I couldn't breathe.",
+      "clinician_review_required": true
+    }
+  }
+]
