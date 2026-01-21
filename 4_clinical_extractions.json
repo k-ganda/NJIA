@@ -1,0 +1,54 @@
+[
+  {
+    "audio_id": "case4.wav",
+    "clinical_facts": {
+      "injury_type": null,
+      "body_location": null,
+      "injury_color_or_stage": null,
+      "mechanism_of_injury": "Cord-like",
+      "timing_of_assault": null,
+      "repeated_assault": null,
+      "drug_facilitated_indicators": null,
+      "survivor_uncertainty_notes": "These are red lines around my arms."
+    }
+  },
+  {
+    "audio_id": "case3.wav",
+    "clinical_facts": {
+      "injury_type": null,
+      "body_location": null,
+      "injury_color_or_stage": null,
+      "mechanism_of_injury": null,
+      "timing_of_assault": null,
+      "repeated_assault": null,
+      "drug_facilitated_indicators": null,
+      "survivor_uncertainty_notes": "I don't remember consenting to anything."
+    }
+  },
+  {
+    "audio_id": "case1.wav",
+    "clinical_facts": {
+      "injury_type": null,
+      "body_location": "legs",
+      "injury_color_or_stage": "yellow-green",
+      "mechanism_of_injury": "kick",
+      "timing_of_assault": "three times",
+      "repeated_assault": null,
+      "drug_facilitated_indicators": null,
+      "survivor_uncertainty_notes": "it's very dark purple there now"
+    }
+  },
+  {
+    "audio_id": "case2.wav",
+    "clinical_facts": {
+      "injury_type": null,
+      "body_location": null,
+      "injury_color_or_stage": null,
+      "mechanism_of_injury": "Grab",
+      "timing_of_assault": "Sudden",
+      "repeated_assault": null,
+      "drug_facilitated_indicators": null,
+      "survivor_uncertainty_notes": "I couldn't breathe."
+    }
+  }
+]
