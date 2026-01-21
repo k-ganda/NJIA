@@ -1,0 +1,30 @@
+[
+  {
+    "audio_id": "case4.wav",
+    "duration_seconds": 23.8,
+    "transcript": "Did he use anything, a weapon, or maybe something he found nearby? I, I don't know. He had, um, a heavy belt? No, it felt like, like a cord, like the ones used for the water pumps. It was thin and it burned my wrists. Look, there are these, uh, red lines around my arms.",
+    "language": "en",
+    "model": "MedASR-compatible (Whisper-large-v3)"
+  },
+  {
+    "audio_id": "case3.wav",
+    "duration_seconds": 25.47,
+    "transcript": "Can you tell me what you remember from that night? I had a drink. After that, things are unclear. I felt dizzy and unusually tired. I don't remember leaving the place. When I woke up, my body felt sore. There was pain in my lower abdomen. I felt confused and embarrassed. I don't remember consenting to anything. This happened two days ago.",
+    "language": "en",
+    "model": "MedASR-compatible (Whisper-large-v3)"
+  },
+  {
+    "audio_id": "case1.wav",
+    "duration_seconds": 38.35,
+    "transcript": "You mentioned this happened on Tuesday, sex 1.0. Today is Saturday. Yes, I was too afraid to come. But then the marks on my legs, they started turning, you know, that ugly yellow-green color? It made me realize I couldn't just hide it. My ribs, here. It's hard to breathe deeply. he he kicked me when i was on the ground three times i think the skin isn't broken but it's it's very dark purple there now",
+    "language": "en",
+    "model": "MedASR-compatible (Whisper-large-v3)"
+  },
+  {
+    "audio_id": "case2.wav",
+    "duration_seconds": 53.97,
+    "transcript": "I'm here now, and you're safe. Can you, in your own time, just tell me what happened after you left the market? It was, uh, getting dark. I was near the big tree on the shortcut road. Suddenly someone, he grabbed my arm from behind. I, I tried to, I tried to pull away, but he was, he was too strong. Take a breath. You're doing so well. What happened next? He pushed me. Pushed me into the dirt. He pinned my arms above my head. I couldn't move. He was so heavy. I felt my shoulder hit a stone. It made a loud crack sound. I just, I just stopped fighting then. I couldn't, uh, I couldn't breathe.",
+    "language": "en",
+    "model": "MedASR-compatible (Whisper-large-v3)"
+  }
+]
