@@ -1,5 +1,6 @@
 # NJIA  
-## Justice by Design: A Trauma-Informed AI Pipeline for Forensic SGBV Documentation
+## A trauma-informed AI assistant that bridges the gap between clinical care and forensic justice for SGBV survivors.
+
 
 ---
 
@@ -171,7 +172,7 @@ If deployed, NJIA has the potential to:
 **Kathrine Ganda**  
 AI & Digital Health Researcher  
 
-Project: **NJIA – Justice by Design**
+Project: **NJIA (The Path): A MedGemma-Powered Forensic Intelligence Layer**
 
 ---
 
