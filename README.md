@@ -163,7 +163,11 @@ If deployed, NJIA has the potential to:
 
 - This is a research prototype, not a certified clinical tool
 - P3 mapping is a digital abstraction, not an official government form
-- Deployment would require regulatory approval, clinician training, and ethical oversight, and more recordings for variability. 
+- Deployment would require regulatory approval, clinician training, and ethical oversight, and more recordings for variability.
+
+## MVP
+
+https://4147a63e.mydala.app 
 
 ---
 
