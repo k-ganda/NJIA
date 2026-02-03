@@ -1,0 +1,162 @@
+.audio-intake-page {
+  min-height: 100vh;
+  background-color: #f5f0ff;
+  padding: 40px 20px;
+}
+
+.audio-intake-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #7c3aed;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.case-id {
+  font-size: 14px;
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.waveform-container {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 32px;
+  min-height: 100px;
+}
+
+.waveform {
+  width: 100%;
+}
+
+.recording-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.microphone-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fca5a5;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  margin-bottom: 12px;
+}
+
+.microphone-button:hover:not(:disabled) {
+  background-color: #f87171;
+}
+
+.microphone-button.recording {
+  background-color: #ef4444;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.microphone-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.recording-status {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.transcript-section {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #7c3aed;
+  margin-bottom: 12px;
+}
+
+.transcript-textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.transcript-textarea:focus {
+  outline: none;
+  border-color: #7c3aed;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.dashboard-button,
+.proceed-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+
+.dashboard-button {
+  background-color: white;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+}
+
+.dashboard-button:hover {
+  background-color: #f9fafb;
+}
+
+.proceed-button {
+  background-color: #4b5563;
+  color: white;
+}
+
+.proceed-button:hover:not(:disabled) {
+  background-color: #374151;
+}
+
+.proceed-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
